@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "586671221440",
+    "project_id": "parking-management-syste-94123",
+    "storage_bucket": "parking-management-syste-94123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586671221440:android:9aaebcf143ad9b882ddb25",
+        "android_client_info": {
+          "package_name": "com.example.carparkingmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586671221440-m9bo2upf6aoa2f6mndmt8utfm2ktlcsm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carparkingmanagementsystem",
+            "certificate_hash": "6b91e10fbe87bb4e91fc8a53b119f9345010f18f"
+          }
+        },
+        {
+          "client_id": "586671221440-hura90uv4oekh4ve6kghjive35i8qgdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuLkTSMS7sJljMkUMrvJ4TRLpfWADcBYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586671221440-hura90uv4oekh4ve6kghjive35i8qgdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

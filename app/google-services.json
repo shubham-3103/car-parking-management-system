@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "315210880268",
+    "firebase_url": "https://car-parking-management-s-d3b73-default-rtdb.firebaseio.com",
+    "project_id": "car-parking-management-s-d3b73",
+    "storage_bucket": "car-parking-management-s-d3b73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315210880268:android:d990e22e54f273a64f2529",
+        "android_client_info": {
+          "package_name": "com.example.carparkingmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315210880268-9lbjjt8d5cod4oi97vjgctjmj3mkahof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxJtq1fIFXOjkOhEiL_lWPfl7G82XA-U8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315210880268-9lbjjt8d5cod4oi97vjgctjmj3mkahof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

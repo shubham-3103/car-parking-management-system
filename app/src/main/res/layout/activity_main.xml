@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width ="match_parent"
+        android:layout_height ="match_parent"
+        android:layout_margin = "15dp"
+        android:padding="10dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView_logo"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="180dp"
+            app:srcCompat="@drawable/logo_transparent" />
+        <TextView
+            android:id="@+id/textView_main_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView_logo"
+            android:layout_marginTop="10dp"
+            android:text="Car Parking Management System"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <TextView
+            android:id="@+id/textView_main_head2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_main_head"
+            android:layout_marginTop="10dp"
+            android:text="!!Welcome to the App!!"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_main_head2"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="70dp"
+            android:text="Login" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_register"
+            android:text="Register"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/button_login"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_register"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:text="Coded By"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Garv Baheti"
+            android:layout_below="@id/button_register"
+            android:layout_marginTop="82dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shubham Sharma"
+            android:layout_below="@id/button_register"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siddharth Jangid"
+            android:layout_below="@id/button_register"
+            android:layout_marginTop="120dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
